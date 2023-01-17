@@ -1,0 +1,778 @@
+[31merror[39m: Error: Invalid role, supported roles are: user
+    at Object.createUser (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:16:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async register (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:9:18)
+[31merror[39m: Error: "role" must be one of [admin, candidate, recruiter]
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\validate.js:16:17
+    at Layer.handle [as handle_request] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\index.js:47:12)
+[31merror[39m: SyntaxError: Unexpected token } in JSON at position 67
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[31merror[39m: Error: Email is already taken. Email: admin9@gmail.com
+    at Object.createUser (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:11:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async register (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:9:18)
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at JwtStrategy.authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:27:109
+    at new Promise (<anonymous>)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:26:12
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at JwtStrategy.authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:27:109
+    at new Promise (<anonymous>)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:26:12
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:9:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at JwtStrategy.authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:28:109
+    at new Promise (<anonymous>)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:27:12
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:9:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at JwtStrategy.authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:28:109
+    at new Promise (<anonymous>)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:27:12
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:9:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at JwtStrategy.authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:30:109
+    at new Promise (<anonymous>)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:12
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:9:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at JwtStrategy.authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:30:109
+    at new Promise (<anonymous>)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:12
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:9:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at JwtStrategy.authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:30:109
+    at new Promise (<anonymous>)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:12
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:9:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at JwtStrategy.authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:30:109
+    at new Promise (<anonymous>)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:12
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:9:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at JwtStrategy.authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:30:109
+    at new Promise (<anonymous>)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:12
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:9:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at JwtStrategy.authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:30:109
+    at new Promise (<anonymous>)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:12
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:9:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at JwtStrategy.authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:30:109
+    at new Promise (<anonymous>)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:12
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:9:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:113:41)
+    at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:22:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: ReferenceError: ApiError is not defined
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:20:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Category with id 63b840a429fb7a8a6a10ebfa not found
+[31merror[39m: Error: Category not found
+    at Object.updateCategory (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:23:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:26:20
+[31merror[39m: ReferenceError: ApiError is not defined
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:20:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: Category not found
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:21:11
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Category with id 63b840a429fb7a8a6a10ebfa not found
+[31merror[39m: Error: Category not found
+    at categoryExists (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:34:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.updateCategory (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:20:3)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:27:20
+[31merror[39m: Category with id 63b840a429fb7a8a6a10ebfa not found
+[31merror[39m: Error: Category not found
+    at isCategoryExists (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:33:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.deleteCategory (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:25:3)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:32:3
+[31merror[39m: MongoServerError: E11000 duplicate key error collection: shoplaza.categories index: name_1 dup key: { name: "Shoes" }
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection_pool.js:307:25
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection.js:242:9)
+    at MessageStream.<anonymous> (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection.js:61:60)
+    at MessageStream.emit (node:events:526:28)
+    at processIncomingData (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+[31merror[39m: MongoServerError: E11000 duplicate key error collection: shoplaza.categories index: name_1 dup key: { name: "Shoes 2" }
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection_pool.js:307:25
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection.js:242:9)
+    at MessageStream.<anonymous> (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection.js:61:60)
+    at MessageStream.emit (node:events:526:28)
+    at processIncomingData (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+[31merror[39m: MongoServerError: E11000 duplicate key error collection: shoplaza.categories index: name_1 dup key: { name: "Shoes 2" }
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection_pool.js:307:25
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection.js:242:9)
+    at MessageStream.<anonymous> (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection.js:61:60)
+    at MessageStream.emit (node:events:526:28)
+    at processIncomingData (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+[31merror[39m: MongoServerError: E11000 duplicate key error collection: shoplaza.categories index: name_1 dup key: { name: "Shoes 2" }
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection_pool.js:307:25
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection.js:242:9)
+    at MessageStream.<anonymous> (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection.js:61:60)
+    at MessageStream.emit (node:events:526:28)
+    at processIncomingData (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+[31merror[39m: MongoServerError: E11000 duplicate key error collection: shoplaza.categories index: name_1 dup key: { name: "Shoes 2" }
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection_pool.js:307:25
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection.js:242:9)
+    at MessageStream.<anonymous> (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\connection.js:61:60)
+    at MessageStream.emit (node:events:526:28)
+    at processIncomingData (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+[31merror[39m: 11000
+[31merror[39m: Category with name Shoes 2 already exists
+[31merror[39m: Error: Category already exists
+    at Object.createCategory (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:13:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:9:20
+[31merror[39m: Error: "category" is not allowed to be empty
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\validate.js:16:17
+    at Layer.handle [as handle_request] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: Category not found
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:21:11
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Category with id 63b840a429fb7a8a6a10ebfa not found
+[31merror[39m: Error: Category not found
+    at isCategoryExists (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:41:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.updateCategory (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:28:3)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:27:20
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at JwtStrategy.authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:27:109
+    at new Promise (<anonymous>)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:26:12
+[31merror[39m: ValidationError: Review validation failed: user: Path `user` is required., product: Path `product` is required., rating: Path `rating` is required.
+    at model.Document.invalidate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31merror[39m: ValidationError: Review validation failed: rating: Path `rating` is required.
+    at model.Document.invalidate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\document.js:2911:17
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31merror[39m: Error: Forbidden, You don't have rights to do this action
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:16:21
+    at JwtStrategy.strategy.success (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:222:18)
+    at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:115:41)
+    at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:20:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at JwtStrategy.authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:27:109
+    at new Promise (<anonymous>)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:26:12
+[31merror[39m: Error: Cannot read properties of undefined (reading 'findIndex')
+    at Object.addItemToCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:45:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:9:16
+[31merror[39m: Error: cart.populate(...).execPopulate is not a function
+    at Object.addItemToCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:45:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:9:16
+[31merror[39m: Error: newCart.populate(...).execPopulate is not a function
+    at Object.addItemToCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:52:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:9:16
+[31merror[39m: Error: Forbidden, You don't have rights to do this action
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:16:21
+    at JwtStrategy.strategy.success (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:222:18)
+    at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:115:41)
+    at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:20:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Product with id 63b858b38dc45f83944f7d57 not found
+[31merror[39m: Error: Product not found in the cart
+    at Object.deleteItemFromCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:83:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:22:16
+[31merror[39m: Quantity is not valid
+[31merror[39m: Error: Item quantity is less than what you have requested
+    at Object.updateQuantity (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:116:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:29:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Incorrect email or password
+    at Object.loginUserWithEmailAndPassword (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\auth.service.js:37:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\auth.controller.js:20:16
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at JwtStrategy.authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:27:109
+    at new Promise (<anonymous>)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:26:12
+[31merror[39m: Error: Forbidden, You don't have rights to do this action
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:16:21
+    at JwtStrategy.strategy.success (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:222:18)
+    at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:115:41)
+    at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:20:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: CastError: Cast to ObjectId failed for value "edit" (type string) at path "_id" for model "Product"
+    at model.Query.exec (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:5012:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: CastError: Cast to ObjectId failed for value "edit" (type string) at path "_id" for model "Product"
+    at model.Query.exec (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:5012:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: "_id" is not allowed, "sold" is not allowed, "isDeleted" is not allowed, "createdBy" is not allowed, "createdAt" is not allowed, "updatedAt" is not allowed, "__v" is not allowed
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\validate.js:16:17
+    at Layer.handle [as handle_request] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:106:33
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\jsonwebtoken\verify.js:190:16
+    at getSecret (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\jsonwebtoken\verify.js:101:10)
+    at Function.module.exports [as JwtVerifier] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:104:25
+[31merror[39m: Error: Forbidden, You don't have rights to do this action
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:16:21
+    at JwtStrategy.strategy.success (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:222:18)
+    at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:115:41)
+    at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:20:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Cart with id null not found
+[31merror[39m: Error: Cart not found
+    at Object.getCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:61:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:15:16
+[31merror[39m: querySrv ETIMEOUT _mongodb._tcp.database.mq4wj.mongodb.net
+[31merror[39m: Error: "productId" is required
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\validate.js:16:17
+    at Layer.handle [as handle_request] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Product with id undefined not found
+[31merror[39m: Error: Product not found in the cart
+    at Object.deleteItemFromCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:83:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:22:16
+[31merror[39m: Product with id undefined not found
+[31merror[39m: Error: Product not found in the cart
+    at Object.deleteItemFromCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:85:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:22:16
+[31merror[39m: CastError: Cast to ObjectId failed for value "63b858b38dc45f83944f7d57}" (type string) at path "_id" for model "Product"
+    at model.Query.exec (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:5012:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: CastError: Cast to ObjectId failed for value "63b84b0bff1bbf0a7cc03d5x" (type string) at path "_id" for model "Product"
+    at model.Query.exec (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:5012:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: CastError: Cast to ObjectId failed for value "63b84b0bff1bbf0a7cc03d5x" (type string) at path "_id" for model "Product"
+    at model.Query.exec (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:5012:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: CastError: Cast to ObjectId failed for value "63b84b0bff1bbf0a7cc03d5x" (type string) at path "_id" for model "Product"
+    at model.Query.exec (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:5012:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: CastError: Cast to ObjectId failed for value "63b84b0bff1bbf0a7cc03d5x" (type string) at path "_id" for model "Product"
+    at model.Query.exec (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:5012:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: CastError: Cast to ObjectId failed for value "63b84b0bff1bbf0a7cc03d5x" (type string) at path "_id" for model "Product"
+    at model.Query.exec (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:5012:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Product with id 63b84b0bff1bbf0a7cc03d5a not found
+[31merror[39m: Error: Product not found in the cart
+    at Object.deleteItemFromCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:83:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:22:16
+[31merror[39m: Product with id 63b84b0bff1bbf0a7cc03d5a not found
+[31merror[39m: Error: Product not found in the cart
+    at Object.deleteItemFromCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:83:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:22:16
+[31merror[39m: CastError: Cast to ObjectId failed for value "63b84b0bff1bbf0a7cc03d5v" (type string) at path "_id" for model "Product"
+    at model.Query.exec (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:5012:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: "category" must be a string
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\validate.js:16:17
+    at Layer.handle [as handle_request] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Category"
+    at model.Query.exec (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Category"
+    at model.Query.exec (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: TypeError: Cannot read properties of undefined (reading 'getProductsByCategory')
+    at Object.deleteCategory (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:36:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:32:3
+[31merror[39m: TypeError: Cannot read properties of undefined (reading 'getProductsByCategory')
+    at Object.deleteCategory (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:36:41)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:32:3
+[31merror[39m: TypeError: Cannot read properties of undefined (reading 'getProductsByCategory')
+    at Object.deleteCategory (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:36:41)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:32:3
+[31merror[39m: Category with id 63c2d86864155ae4c8a45ca8 is used by some products
+[31merror[39m: Error: Category is used by some products
+    at Object.deleteCategory (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:39:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:32:3
+[31merror[39m: Category with id 63c2d86864155ae4c8a45ca8 is used by some products
+[31merror[39m: Error: Category is used by some products
+    at Object.deleteCategory (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:39:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:32:3
+[31merror[39m: Category with id 63c2d86864155ae4c8a45ca8 is used by some products
+[31merror[39m: Error: Category is used by some products
+    at Object.deleteCategory (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:39:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:32:3
+[31merror[39m: Category with id 63c2d86864155ae4c8a45ca8 is used by some products
+[31merror[39m: Error: Category is used by some products
+    at Object.deleteCategory (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:39:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:32:3
+[31merror[39m: Category with id 63c2d86864155ae4c8a45ca8 is used by some products
+[31merror[39m: Error: Category is used by some products
+    at Object.deleteCategory (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\category.service.js:39:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\category.controller.js:32:3
+[31merror[39m: Error: "productId" is required
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\validate.js:16:17
+    at Layer.handle [as handle_request] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: "userId" is not allowed
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\validate.js:16:17
+    at Layer.handle [as handle_request] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: Transaction is not a constructor
+    at Object.makeTransaction (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\order.service.js:128:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\order.controller.js:45:23
+[31merror[39m: Error: Transaction validation failed: order: Path `order` is required.
+    at Object.makeTransaction (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\order.service.js:128:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\order.controller.js:45:23
+[31merror[39m: Order with id undefined not found
+[31merror[39m: Error: Order not found
+    at Object.makeTransaction (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\order.service.js:130:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\order.controller.js:45:23
+[31merror[39m: Cart with id null not found
+[31merror[39m: Error: Cart not found
+    at Object.getCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:61:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:15:16
+[31merror[39m: Cart with id null not found
+[31merror[39m: Error: Cart not found
+    at Object.getCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:61:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:15:16
+[31merror[39m: Cart with id null not found
+[31merror[39m: Error: Cart not found
+    at Object.getCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:61:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:15:16
+[31merror[39m: Cart with id null not found
+[31merror[39m: Error: Cart not found
+    at Object.getCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:61:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:15:16
+[31merror[39m: Cart with id null not found
+[31merror[39m: Error: Cart not found
+    at Object.getCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:61:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:15:16
+[31merror[39m: Error: Cannot populate path `transaction` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at Object.getOrders (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\order.service.js:46:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\order.controller.js:16:18
+[31merror[39m: Error: Cannot populate path `transaction` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at Object.getOrders (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\order.service.js:46:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\order.controller.js:16:18
+[31merror[39m: Error: Cannot populate path `transaction` because it is not in your schema. Set the `strictPopulate` option to false to override.
+    at Object.getOrders (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\order.service.js:46:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\order.controller.js:16:18
+[31merror[39m: Cart with id null not found
+[31merror[39m: Error: Cart not found
+    at Object.getCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:61:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:15:16
+[31merror[39m: Cart with id null not found
+[31merror[39m: Error: Cart not found
+    at Object.getCart (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\cart.service.js:61:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\cart.controller.js:15:16
+[31merror[39m: Error: "comment" is not allowed to be empty
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\validate.js:16:17
+    at Layer.handle [as handle_request] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Order with id transactions not found
+[31merror[39m: Error: Order not found
+    at Object.getOrder (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\order.service.js:109:11)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\order.controller.js:26:17
+[31merror[39m: querySrv ECONNREFUSED _mongodb._tcp.database.mq4wj.mongodb.net
+[31merror[39m: querySrv ECONNREFUSED _mongodb._tcp.database.mq4wj.mongodb.net
+[31merror[39m: ReferenceError: ISODate is not defined
+    at Object.getMonthlySalesForYear (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\report.service.js:32:17)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\report.controller.js:12:38
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\utils\catchAsync.js:2:19
+    at Layer.handle [as handle_request] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: ReferenceError: ISODate is not defined
+    at Object.getMonthlySalesForYear (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\report.service.js:35:17)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\report.controller.js:12:38
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\utils\catchAsync.js:2:19
+    at Layer.handle [as handle_request] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: TypeError: Order.aggregate(...).toArray is not a function
+    at Object.getMonthlySalesForYear (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\services\report.service.js:55:6)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\controllers\report.controller.js:12:38
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\utils\catchAsync.js:2:19
+    at Layer.handle [as handle_request] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:29:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:113:41)
+    at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:18:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:113:41)
+    at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:18:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:113:41)
+    at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:18:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:113:41)
+    at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:18:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:113:41)
+    at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:18:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:113:41)
+    at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:18:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:113:41)
+    at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:18:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:113:41)
+    at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:18:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31merror[39m: Error: Please authenticate
+    at C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\middlewares\auth.js:8:19
+    at allFailed (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:110:18)
+    at attempt (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport\lib\middleware\authenticate.js:305:9)
+    at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:113:41)
+    at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:18:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
