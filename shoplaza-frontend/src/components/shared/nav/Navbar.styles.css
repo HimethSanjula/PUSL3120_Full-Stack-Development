@@ -1,0 +1,24 @@
+.logo{
+    padding: 0;
+    border: 0;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    color: #ff7d7d;
+    font-weight: 700;
+}
+.nav-item-user a, span{
+    font-size: 1.1em;
+}
+.active a{
+    color: #ff7d7d !important;
+    text-decoration: underline;
+    font-weight: 600;
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
