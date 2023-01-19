@@ -139,8 +139,8 @@ const AddProduct = () => {
 								required
 							/>
 						</div>
-						{category.length > 0 ?  (
-							<CustomSelect
+
+						<CustomSelect
 							value={category}
 							asyncDataLoader={ProductService.getCategories}
 							isAsync={true}
@@ -153,18 +153,7 @@ const AddProduct = () => {
 								setProduct({ ...product, category: e })
 							}
 						/>
-						): (
-							<div className='text-center'>
-								<h4 className='text-danger'>
-									No Category Found, Please create one
-								</h4>
-								<Link to='/admin/category/add'>
-									<button className='btn btn-primary'>
-										Create Category
-									</button>
-								</Link>
-							</div>
-						)}
+
 						{/* image preview */}
 						<div className='col-md-12'>
 							{imageFile && (

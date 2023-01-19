@@ -9,7 +9,7 @@ const Footer = () => {
 			<footer className='py-5'>
 				<div className='row'>
 					<div className='col-6 col-md-2 mb-3'>
-						<h5>Section</h5>
+						
 						<ul className='nav flex-column'>
 							<li className='nav-item mb-2'>
 								<Link to='#' className='nav-link p-0 text-muted'>
@@ -39,67 +39,7 @@ const Footer = () => {
 						</ul>
 					</div>
 
-					<div className='col-6 col-md-2 mb-3'>
-						<h5>Section</h5>
-						<ul className='nav flex-column'>
-							<li className='nav-item mb-2'>
-								<Link to='#' className='nav-link p-0 text-muted'>
-									Home
-								</Link>
-							</li>
-							<li className='nav-item mb-2'>
-								<Link to='#' className='nav-link p-0 text-muted'>
-									Features
-								</Link>
-							</li>
-							<li className='nav-item mb-2'>
-								<Link to='#' className='nav-link p-0 text-muted'>
-									Pricing
-								</Link>
-							</li>
-							<li className='nav-item mb-2'>
-								<Link to='#' className='nav-link p-0 text-muted'>
-									FAQs
-								</Link>
-							</li>
-							<li className='nav-item mb-2'>
-								<Link to='#' className='nav-link p-0 text-muted'>
-									About
-								</Link>
-							</li>
-						</ul>
-					</div>
-
-					<div className='col-6 col-md-2 mb-3'>
-						<h5>Section</h5>
-						<ul className='nav flex-column'>
-							<li className='nav-item mb-2'>
-								<Link to='#' className='nav-link p-0 text-muted'>
-									Home
-								</Link>
-							</li>
-							<li className='nav-item mb-2'>
-								<Link to='#' className='nav-link p-0 text-muted'>
-									Features
-								</Link>
-							</li>
-							<li className='nav-item mb-2'>
-								<Link to='#' className='nav-link p-0 text-muted'>
-									Pricing
-								</Link>
-							</li>
-							<li className='nav-item mb-2'>
-								<Link to='#' className='nav-link p-0 text-muted'>
-									FAQs
-								</Link>
-							</li>
-							<li className='nav-item mb-2'>
-								<Link to='#' className='nav-link p-0 text-muted'>
-									About
-								</Link>
-							</li>
-						</ul>
-					</div>
+					
 
 					<div className='col-md-5 offset-md-1 mb-3'>
 						<form>
