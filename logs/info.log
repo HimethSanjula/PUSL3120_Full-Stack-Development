@@ -1286,3 +1286,5 @@
     at verified (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\node_modules\passport-jwt\lib\strategy.js:113:41)
     at JwtStrategy.jwtVerify [as _verify] (C:\Users\dasun\Desktop\projects\shoplaza\shoplaza-be\config\passport.js:18:14)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[32minfo[39m: MongoDB Connection is up and running
+[32minfo[39m: MongoDB Connection is up and running
