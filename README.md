@@ -12,20 +12,22 @@ businesses and customers to use.
 
 **Instructions** 
 
-1.Open  "Shoplaza-PUSL3120--main" in Visual Studio Code.
+1. Open  "Shoplaza-PUSL3120--main" in Visual Studio Code.
 
-2.Open up a New Terminal.
+2. Open up a New Terminal.
 
-3.Run npm I and let it install the modules.
+3. Run npm I and let it install the modules.
 
-4.then npm start to run the backend on mongodb database. 
+4. Then npm start to run the backend on mongodb database. 
 
-5.Go to file new window in Visual Studio Code.
+5. Go to file new window in Visual Studio Code.
 
-6.Open the "FRONTEND" folder in "Shoplaza-PUSL3120--main"
+6. Open the "FRONTEND" folder in "Shoplaza-PUSL3120--main"
 
-7.Open up a New Terminal.
+7. Open up a New Terminal.
 
-8.Run npm I and let it install the modules.
+8. Run npm I and let it install the modules.
 
-9.and then npm start to locally run the frontend. 
+9. Final step is to run npm start to locally run the frontend on your local host.
+
+10. The frontend should be up & running successfully.
